@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTEM WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <?php include "head.php"; ?>
+  <div class="header">
+    <div class="container">
+   <div class="hero">
+                <div class="row">
+                    <h1>Welcome to Art Store</h1>
+                    <p>Explore wide range of products</p>
+                    <a href="products.php" class="btn-x"> Explore Now &#8594;</a>
+
+                </div>
+                <div class="row">
+                    <img src="b2.jpg">
+                </div>
+            </div>
+</div>
+</div> 
+    <section class="products">
+        <div class="container">
+            <h2 class="title">FEATURED PRODUCTS</h2>
+            <br>
+            <div class="product">
+                <img src="p1.jpg">
+                <p>Rs.1900</p>
+                <a href="#" class="btn add-to-cart" >Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p2.jpg">
+                <p>Rs.2400</p>
+                <a href="#" class="btn add-to-cart">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p3.jpg">
+                <p>Rs.2200</p>
+                <a href="#" class="btn add-to-cart" data-product-id="3">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p4.jpg">
+                <p>Rs.2100</p>
+                <a href="#" class="btn add-to-cart" data-product-id="4">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p5.jpg">
+                <p class="price">Rs.1000</p>
+                <a href="#" class="btn add-to-cart" data-product-id="5">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p6.jpg">
+                <p>Rs.1000</p>
+                <a href="#" class="btn add-to-cart" data-product-id="6">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p7.jpg">
+                <p>Rs.1740</p>
+                <a href="#" class="btn add-to-cart"data-product-id="7">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p8.jpg">
+                <p>Rs.2180</p>
+                <a href="#" class="btn add-to-cart" data-product-id="8">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p9.jpg">
+                <p>Rs.1490</p>
+                <a href="#" class="btn add-to-cart"data-product-id="9">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="p10.jpg">
+                <p>Rs.1200</p>
+                <a href="#" class="btn add-to-cart"data-product-id="10">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="row1">
+                <div class="coll">
+                    <img src="logo.png" class="logo">
+                    <p><b>ARTEM is used for collecting and showcasing Arts</b>
+                        <br>where innovation meets inspiration<br>
+                        Evaluate your experience with Arts</p>
+                </div>
+                <div class="coll">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="coll">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit">&#8594;</button>
+                    </form>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+   <?php include "js.php"; ?> 
+</body>
+</html>
